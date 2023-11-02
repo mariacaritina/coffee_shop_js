@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coffee Shop Website</title>
+<link rel="stylesheet" href="cswjs.css">
+<script src="cswjs.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav class="container">
+<div class="home">Home</div>
+<div class="menu">Menu</div>
+<div class="locations">Locations</div>
+<div class="about">About</div>
+<div class="order">Order Now!</div>
+</nav>
+<img src="https://t4.ftcdn.net/jpg/01/36/72/35/360_F_136723508_DEDtVanueqBnI8s2Bs3yuT6eThvUsq7w.jpg" alt="cup of coffee beans spilling out">
+
+<h2>Order Here!</h2>
+
+<form class="order-form">
+<div class="name">
+<label for="fname">Full name:</label><br>
+<input type="text" id="fname" name="fname" required><br>
+</div>
+
+<div class="email">
+<label for="lemail">Email Address:</label><br>
+<input type="text" id="lemail" name="lemail">
+</div>
+
+<p>We'll never share your email with anyone else.</p>
+
+<div class="choices">
+<div class="poison">
+<h3>What's your poison?</h3>
+<form class="coffees">
+<input type="checkbox" id="coffee" name="beverage" value="Coffee">
+<label for="coffee">Coffee</label><br>
+<input type="checkbox" id="tea" name="beverage" value="Black Tea">
+<label for="tea">Black Tea</label><br>
+</form>
+</div>
+
+<div class="shots">
+<h3>Any shots?</h3>
+<form class="creamer">
+<input type="checkbox" id="espresso" name="creamer" value="Espresso">
+<label for="espresso">Espresso</label><br>
+<input type="checkbox" id="carmel" name="creamer" value="Carmel">
+<label for="carmel">Carmel</label><br>
+</form>
+</div>
+
+<div class="milk">
+<h3>Any Milk?</h3>
+<form class="sweetener">
+<input type="checkbox" id="cow" name="sweetener" value="Whole Cow Milk">
+<label for="cow">Whole Cow Milk</label><br>
+<input type="checkbox" id="goat" name="sweetener" value="Goat Milk">
+<label for="goat">Goat Milk</label><br>
+</form>
+</div>
+</div>
+
+<h2>Any Notes?</h2>
+
+<div class="notes">
+<div class="box">
+<label for="userNotes">Notes:</label><br>
+<textarea id="userNotes" name="userNotes" rows="4" cols="50"></textarea><br>
+</div>
+<input class="button" type="button" value="Submit" onclick="submitOrder()">
+</div>
+</form>
+
+</body>
+</html>

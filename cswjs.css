@@ -1,0 +1,115 @@
+img {
+    width: 100%;
+  height: auto;
+  }
+
+.container { 
+border: 5px solid #FFFFFF; 
+display: flex;
+justify-content:  space-evenly; 
+padding-left: 300px;
+padding-right: 300px;
+}
+
+.home { 
+color: #800020; 
+font-family: 'Roboto', sans-serif;
+}
+
+.menu { 
+    color: #800020;
+    font-family: 'Roboto', sans-serif;
+}
+
+.locations { 
+    color: #800020;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about { 
+    color: #800020;
+    font-family: 'Roboto', sans-serif;
+}
+
+.order { 
+    color: #800020;
+    font-family: 'Roboto', sans-serif;
+}
+
+.order:hover {
+    background-color: #F0B67F;
+  }
+
+
+h2 { 
+    padding-left: 250px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+}
+
+.name { 
+   padding-left: 250px; 
+   padding-bottom: 25px;
+   font-family: 'Roboto', sans-serif;
+   
+}
+
+.name input { 
+    width: 800px;
+}
+
+.email input { 
+    width: 800px; 
+}
+
+.email { 
+    padding-left: 250px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p { 
+    padding-left: 250px;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+.coffees { 
+    font-family: 'Roboto', sans-serif;
+}
+
+.choices {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 5px;
+  }
+
+.poison {
+    justify-content: left;
+    padding-left: 50px;
+}
+
+.notes > .box { 
+    padding-left: 250px; 
+    padding-bottom: 25px;
+    
+ }
+ 
+ #notebox { 
+     width: 800px;
+     height: 200px;
+ }
+
+
+.notes > .button {
+    margin-left: 250px;
+    border: none; 
+    background-color: aqua;
+    color: white; 
+}
